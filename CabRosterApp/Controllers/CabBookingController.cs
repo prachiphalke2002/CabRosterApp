@@ -48,7 +48,7 @@ namespace CabRosterApp.Controllers
                         UserId = bookingRequest.UserId,
                         ShiftId = bookingRequest.ShiftId,
                         BookingDate = date,
-                        Status = "Booked",  // Set the status as "Booked" initially
+                        Status = "Booked",  // Set the status as "Booked" initially - Shivani changes
                         NodalPointId = bookingRequest.NodalPointId
                     };
 
