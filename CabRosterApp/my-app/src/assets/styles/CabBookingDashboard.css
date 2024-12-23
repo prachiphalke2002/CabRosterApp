@@ -1,0 +1,34 @@
+.available-date {
+  background-color: green !important;
+  color: white !important;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}

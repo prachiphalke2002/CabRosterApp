@@ -1,0 +1,101 @@
+/* Basic container styling, center the form */
+
+.username {
+    font-size: bold;
+}
+
+.register-form-input {
+    margin-bottom: 1.5rem;
+    width: 350px;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.5rem
+}
+
+.register-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7f6;
+}
+
+/* Register form card */
+.register-card {
+    width: 420px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+
+/* Header for the register form */
+.register-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+/* Form control (input fields and labels) */
+.register-form .form-control {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+/* Individual input styling */
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin-bottom: 0.5rem; */
+}
+
+    /* Focus on input fields */
+    .form-input:focus {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+/* Submit button */
+.btn {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Full-width button styling */
+.w-100 {
+    width: 376px;
+}
+
+/* Footer with a login link */
+.register-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .register-footer a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .register-footer a:hover {
+            text-decoration: underline;
+        }
