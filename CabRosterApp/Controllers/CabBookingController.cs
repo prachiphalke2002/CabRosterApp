@@ -48,14 +48,14 @@ namespace CabRosterApp.Controllers
                         UserId = bookingRequest.UserId,
                         ShiftId = bookingRequest.ShiftId,
                         BookingDate = date,
-                        Status = "Booked",  // Set the status as "Booked" initially
+                        Status = "Booked",  // Set the status as "Booked" initially - Shivani changes
                         NodalPointId = bookingRequest.NodalPointId
                     };
 
                     _context.CabBookings.Add(newBooking);  // Add each individual booking record to the context
                 }
 
-                await _context.SaveChangesAsync();  // Save all new bookings in the database - new changes in Master               return Ok(new { Success = true, Message = "Cab booked successfully!" });
+                await _context.SaveChangesAsync();  // Save all new bookings in the database - new changes in Master Shivani              return Ok(new { Success = true, Message = "Cab booked successfully!" });
             }
             catch (Exception ex)
             {
