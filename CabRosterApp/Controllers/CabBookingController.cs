@@ -55,7 +55,7 @@ namespace CabRosterApp.Controllers
                     _context.CabBookings.Add(newBooking);  // Add each individual booking record to the context
                 }
 
-                await _context.SaveChangesAsync();  // Save all new bookings in the database
+                await _context.SaveChangesAsync();  // Save all new bookings in the database -a
 
                 return Ok(new { Success = true, Message = "Cab booked successfully!" });
             }
